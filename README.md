@@ -2,6 +2,8 @@
 
 **MarketEdge** is a real-time trading dashboard that streams live prices for stocks, options, and futures (e.g., ES, NQ, NVDA) and overlays expert support/resistance levels extracted from a daily YouTube video. Built with Java, Kafka, and React, it lets users select symbols, view charts, and trade with an edge.
 
+![Project Architecture](images/architecture.png)
+
 ## Features
 - **Real-Time Data**: Streams live prices via IBKR API and Kafka.
 - **Expert Levels**: Automatically pulls support/resistance levels (e.g., ES 5650-5690) from a daily YouTube video.
